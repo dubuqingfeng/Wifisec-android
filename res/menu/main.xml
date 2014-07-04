@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+        <item  
+            android:id="@+id/menu_add" 
+            android:icon="@drawable/ic_menu_moreoverflow_normal_holo_dark" 
+            android:showAsAction="ifRoom"  
+            android:title="Search"/>  
+</menu>

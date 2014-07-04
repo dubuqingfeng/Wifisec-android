@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:orientation="vertical"
+>
+<TextView android:id="@+id/spinnerText"
+            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content">
+</TextView>
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ET_inputaddress"
+    android:hint="请输入要查询的网址"
+>
+</EditText>
+<Spinner android:id="@+id/Spinner01"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content">
+</Spinner>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bt_nettest"
+    android:text="确定"
+    ></Button>
+</LinearLayout>
