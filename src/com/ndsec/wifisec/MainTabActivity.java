@@ -84,8 +84,21 @@ private void initView(){
      // 给radioGroup设置监听事件  
      radioGroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {  
          @Override  
-         public void onCheckedChanged(RadioGroup group, int checkedId) {  
-             switch (checkedId) {  
+         public void onCheckedChanged(RadioGroup group, int checkedId) {
+        	 if(checkedId==R.id.RadioButton0)
+        	 {
+        		 tabHost.setCurrentTabByTag(ConValue.mTextviewArray[0]);  
+        	 }
+        	 else if(checkedId==R.id.RadioButton1){
+        		 tabHost.setCurrentTabByTag(ConValue.mTextviewArray[1]);  
+        	 }
+        	 else if(checkedId==R.id.RadioButton2){
+        		 tabHost.setCurrentTabByTag(ConValue.mTextviewArray[2]);  
+        	 }
+        	 else if(checkedId==R.id.RadioButton3){
+        		 tabHost.setCurrentTabByTag(ConValue.mTextviewArray[3]);  
+        	 }
+             /*switch (checkedId) {  
              case R.id.RadioButton0:  
                  tabHost.setCurrentTabByTag(ConValue.mTextviewArray[0]);  
                  break;  
@@ -98,7 +111,7 @@ private void initView(){
              case R.id.RadioButton3:  
                  tabHost.setCurrentTabByTag(ConValue.mTextviewArray[3]);  
                  break;  
-             }  
+             }  */
          }  
      });  
      ((RadioButton) radioGroup.getChildAt(0)).toggle();  

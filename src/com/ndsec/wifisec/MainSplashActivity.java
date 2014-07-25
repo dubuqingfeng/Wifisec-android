@@ -91,6 +91,6 @@ public class MainSplashActivity extends Activity {
 		//AnimationSet set = new AnimationSet(false);  
 		//Animation animation = new AlphaAnimation(0,1);   //AlphaAnimation 控制渐变透明的动画效果   
 		//animation.setDuration(1000);     //动画时间毫秒数   
-		//set.addAnimation(animation);    //加入动画集合    
+		//set.addAnimation(animation);       
 	}
 }
